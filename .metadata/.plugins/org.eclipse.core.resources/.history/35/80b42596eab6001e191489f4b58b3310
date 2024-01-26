@@ -1,0 +1,34 @@
+package org.generation.collecttions;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+	public static void main(String[] args) {
+		//*******************Arrays*******************//
+		String[] names = {"Jonathan", "Gonzalo", "Fernanda", "Lizbeth", "Arturo", "Uriel", "Martin", "Lucero"};
+		//Imprimiendo Arrayss
+		System.out.println(Arrays.toString(names)); //Muestra array entre [], todos los elementos
+		
+		int[] edades = {12, 30, 24, 32, 14, 25, 18, 36};
+		System.out.println(Arrays.toString(edades)); //toString tipo de dato que se requiere
+		
+		//Acceder a cada elemento del Array
+		String name1 = names[0];
+		System.out.println("El primer nombre de la lista es "+ name1);
+		int edad1 = edades [2];
+		System.out.println("La edad de " +name1 + " es de " + edad1 + " años");
+		String name2 = names [5];
+		int edad2 = edades [4];
+		System.out.println("La edad de " + name2 + " es de " + edad2 + " años");
+		
+		//Obtener la longitud del Array
+		int longitudNames = names.length;
+		System.out.println("El Array names tiene " +longitudNames + " elementos ");
+		
+		//Obtener el último elemento
+		//String ultimoElemento = names[longitudNames - 1]; //La longitud  ya vive en la variable longitudNames
+		
+		String ultimoElemento = names[names.length - 1]; //La longitud  NO vive en una variable
+		System.out.println("El últimmo elemento del Array names es " + ultimoElemento);
+	}//main
+}//class

@@ -1,0 +1,5 @@
+package org.generation.banco;
+
+public class CuentaBancaria {
+
+}

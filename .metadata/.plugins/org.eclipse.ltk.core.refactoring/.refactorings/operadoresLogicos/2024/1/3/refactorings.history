@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Redenominar el tipo «operadoresLogicos.ejerciciosOperadores» como «EjerciciosOperadores»&#x0A;- Proyecto original: «operadoresLogicos»&#x0A;- Elemento original: «operadoresLogicos.ejerciciosOperadores»&#x0A;- Elemento redenominado: «operadoresLogicos.EjerciciosOperadores»&#x0A;- Actualizar referencias al elemento refactorizado&#x0A;- Actualizar apariciones textuales en comentarios y cadenas de texto" description="Redenominar el tipo «ejerciciosOperadores»" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;operadoresLogicos{ejerciciosOperadores.java[ejerciciosOperadores" matchStrategy="1" name="EjerciciosOperadores" qualified="false" references="true" similarDeclarations="false" stamp="1705346915557" textual="false" version="1.0"/>
+</session>

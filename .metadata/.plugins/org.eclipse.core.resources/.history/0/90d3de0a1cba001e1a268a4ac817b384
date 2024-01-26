@@ -1,0 +1,21 @@
+package org.generation.iterable;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class IterableMain {
+	public static void main(String[] args) {
+		//Podemos iterar sobre una colección de tres maneras:
+		//1. Iteración mediante un ciclo for-each
+		List<String> nombres = new ArrayList<String>();
+		
+		nombres.addAll(Arrays.asList("Braulio", "Fernanda", "Rodrigo", "Rubén", "Marco", "Rey")); //MétodoaddAll para agregar elementos
+		
+		for (String nombre : nombres) {
+			System.out.println(nombre);
+		}
+		
+		
+	}//main
+}//class

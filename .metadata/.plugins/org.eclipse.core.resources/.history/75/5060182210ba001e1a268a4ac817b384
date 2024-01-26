@@ -1,0 +1,8 @@
+package org.generation.encapsulation;
+
+public class Snippet {
+	public static void main(String[] args) {
+		/poo1/src/org/generation/employee/Employee.java
+	}
+}
+

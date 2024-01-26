@@ -1,0 +1,14 @@
+package org.generation.letras;
+//En el Método Main se van a instanciar los objetos para poder utilizarlos
+//Aquí se declara la lógica del negocio
+public class LetrasMain {
+	public static void main(String[] args) {
+		//Instanciar objetos (Letras y Contador)
+		Letras letras = new Letras();
+		letras.mostrarMensaje("Escribe un texto y te mostraré el número de vocales, consonantes, símbolos y números");
+		String palabra = letras.leerEntrada();
+		
+		Contador contador = new Contador();
+		
+	}//main
+}//class

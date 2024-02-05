@@ -1,7 +1,0 @@
-package org.generation.employee;
-
-public class EmployeeMain {
-	public static void main(String[] args) {
-		
-	}//main
-}//class

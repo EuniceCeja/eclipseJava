@@ -9,7 +9,8 @@ public class ManagerMain {
 		double salarioBaseFer = Fernanda.salarioBase;
 		//Método calcular salario polimórfico
 		Fernanda.calcularSalario();
-		System.out.println("El salario base de " + Fernanda.getNombreCompleto() + " con posición de " + Fernanda.getPuesto() + " es de $" + salarioBaseFer + " pero posee una antigüedad de " + Fernanda.getAntiguedad() + " años, por lo tanto su salario incrementa a " + salarioBaseFer);
+		double salarioFer = Fernanda.getSalario();
+		System.out.println("El salario base de " + Fernanda.getNombreCompleto() + " con posición de " + Fernanda.getPuesto() + " es de $" + salarioBaseFer + " pero posee una antigüedad de " + Fernanda.getAntiguedad() + " años, por lo tanto su salario incrementa a " + salarioFer);
 		
 	}//main
  }//class
